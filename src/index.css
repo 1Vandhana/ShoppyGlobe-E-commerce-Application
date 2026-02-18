@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+  color: rgb(201, 95, 95);
+  padding: 15px 30px;
+}
+
+.header a {
+  color: hsl(51, 80%, 64%);
+  margin: 0 10px;
+  text-decoration: none;
+  
+}
+
+.header input {
+  padding: 6px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  background-image: url("https://static.vecteezy.com/ti/vecteur-libre/t1/10803399-fond-avec-des-sacs-a-provisions-colores-illustrationle-concept-de-vente-et-de-remise-vectoriel.jpg")
+    no-repeat;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  border: 1px solid #674848;
+  padding: 15px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.cart-item {
+  display: flex;
+  gap: 20px;
+  padding: 15px;
+  border-bottom: 1px solid lab(87.54% -2.92 1.73);
+  text-decoration: aqua;
+  border-radius:12px;
+  transition:all 0.3s ease;
+  
+}
+
+.cart-item img {
+  width: 100px;
+}
+
+.quantity button {
+  margin: 0 5px;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+  gap: 100px;
+  background-color: lab(59.47% -28.27 39.21);
+  border-radius: 10px;
+  transition:all 0.2s ease;
+  
+}
+
+button:hover{
+  background-color: hwb(112 13% 24%);
+  transform:translateY(-3px);
+  box-shadow:0 5px 10px rgba(0,0,0,0.2);
+}
+
+.notfound {
+  text-align: center;
+  padding: 50px;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cart-item {
+    flex-direction: column;
+  }
+}
+
