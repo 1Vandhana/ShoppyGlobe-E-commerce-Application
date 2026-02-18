@@ -13,7 +13,7 @@ function Header() {
 
   return (
     <header className="header">
-      <h2>ShoppyGlobe</h2>
+      <h2> 🛒 ShoppyGlobe</h2>
 
       <nav>
         <Link to="/">Home</Link>
