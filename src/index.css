@@ -9,7 +9,7 @@ body {
   justify-content: space-between;
   align-items: center;
   background: lch(36.38% 19.39 200.7);
-  color: #f15839;
+  color: black;
   padding: 15px 30px;
 }
 /* for Home and carts */
@@ -27,6 +27,35 @@ body {
 .header input {
   padding: 6px;
 }
+.search-wrapper {
+  position: relative;
+  width: 260px;
+}
+
+.search-wrapper input {
+  
+  padding: 10px 15px 10px 40px;
+  border-radius: 30px;
+  border: 1px solid #ddd;
+  outline: none;
+  transition: 0.3s;
+}
+
+.search-wrapper input:hover,
+.search-wrapper input:focus {
+  box-shadow: 0 1px 6px  #f15839;
+  border-color: transparent;
+}
+
+.search-icon {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: black;
+  font-size: 18px;
+}
+
 /* Grid for cards*/
 .grid {
   display: grid;
@@ -39,7 +68,7 @@ body {
 .card {
   border: 1px solid #674848;
   width:200px;
-  gap: 20px;
+  gap: 5px;
   padding: 15px;
   text-align: center;
   border-radius: 20px;
@@ -64,12 +93,13 @@ body {
   display: flex;
   gap: 20px;
   padding: 15px;
-  border-bottom: 1px solid lab(87.54% -2.92 1.73);
+  border-bottom: 1px solid lab(80.75% -27.79 17.93);
   text-decoration: aqua;
   border-radius:12px;
   transition:all 0.3s ease;
   
 }
+
 
 .cart-item img {
   width: 100px;
