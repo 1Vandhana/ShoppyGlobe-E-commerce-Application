@@ -1,3 +1,4 @@
+// 
 import PropTypes from "prop-types";
 import { useDispatch } from "react-redux";
 import {
@@ -16,8 +17,7 @@ function CartItem({ item }) {
       <div>
         <h4>{item.title}</h4>
         <p>Price: ${item.price}</p>
-        <p>Total: ${item.price * item.quantity}</p>
-
+        
         <div className="quantity">
           <button onClick={() => dispatch(decreaseQty(item.id))}>-</button>
           <span>{item.quantity}</span>

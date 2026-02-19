@@ -1,7 +1,9 @@
 /* Styling the wenpage of shoppyglobe application*/
+/* == Global==*/
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  background:#f4f6f9;
 }
 
 .header {
@@ -11,25 +13,31 @@ body {
   background: lch(36.38% 19.39 200.7);
   color: black;
   padding: 15px 30px;
+  flex-wrap: wrap;
 }
 /* for Home and carts */
 .header a {
   color: hsl(51, 80%, 64%);
   margin: 0 10px;
   text-decoration: none;
+  font-weight:500;
+  transition: all 0.3s ease;
   
 }
 .header a:hover{
-  background-color: lch(36.38% 19.39 200.7) ;
+  color: white ;
   text-decoration: underline;
+  transform:translateY(-2px);
 }
 
 .header input {
   padding: 6px;
 }
+/* == Search bar ===== */
 .search-wrapper {
   position: relative;
   width: 260px;
+  max-width:100%;
 }
 
 .search-wrapper input {
@@ -38,6 +46,8 @@ body {
   border-radius: 30px;
   border: 1px solid #ddd;
   outline: none;
+  font-size: 14px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   transition: 0.3s;
 }
 
@@ -59,20 +69,25 @@ body {
 /* Grid for cards*/
 .grid {
   display: grid;
-  gap:20px;
+  gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   background-color: white;
   padding: 20px;
 }
+
 /* Styling the Cards */
 .card {
   border: 1px solid #674848;
+  border-radius: 20px;
   width:200px;
   gap: 5px;
   padding: 15px;
   text-align: center;
   border-radius: 20px;
-  background-color: whitesmoke;
+  background:rgba(255,255,255,0.8);
+  text-align:center;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
 }
 /* Hovering effect for Carts*/
 
@@ -83,39 +98,54 @@ body {
 }
 
 .card img {
-  width: 200px;
+  width: 150px;
   height: 100px;
   object-fit: cover;
   border-radius:10px;
+  margin-bottom:10px;
 }
 
 .cart-item {
   display: flex;
+  width:250px;
+  height: 200px;
   gap: 20px;
   padding: 15px;
-  border-bottom: 1px solid lab(80.75% -27.79 17.93);
+  border-radius: 15px;
+  background: white;
+  margin: 15px;
+  align-items: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  border-bottom: 2px solid lab(80.75% -27.79 17.93);
   text-decoration: aqua;
   border-radius:12px;
   transition:all 0.3s ease;
   
 }
-
+.cart-item:hover{
+  transform: scale(1.02);
+}
 
 .cart-item img {
   width: 100px;
+  border-radius: 10px;
 }
-
+/* ====== Quantity Buttons ==== */
 .quantity button {
   margin: 0 5px;
+
 }
 /* Button styling for adding for view the data for cart */
 button {
   padding: 8px 12px;
+  border: none;
   cursor: pointer;
   gap: 100px;
-  background-color: lab(59.47% -28.27 39.21);
+  background:linear-gradient(135deg,#ff6a00,#ee0979);
+  color:white;
+  font-weight:500;
   border-radius: 10px;
-  transition:all 0.2s ease;
+  transition:all 0.3s ease;
   
 }
 
@@ -125,18 +155,22 @@ button:hover{
   box-shadow:0 5px 10px rgba(0,0,0,0.2);
 }
 
+/* Not Found ==*/
 .notfound {
   text-align: center;
   padding: 50px;
+  font-size: 20px;
+  color:#555;
 }
+  
 
-@media (max-width: 600px) {
-  .grid {
-    grid-template-columns: 1fr;
-  }
+/* Responsivve ======*/
 
-  .cart-item {
-    flex-direction: column;
-  }
+@media (max-width: 600px) { 
+  .grid { 
+    grid-template-columns: 1fr; 
+  } 
+  .cart-item { 
+    flex-direction: column; 
+  } 
 }
-

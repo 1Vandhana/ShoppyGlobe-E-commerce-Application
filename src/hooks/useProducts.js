@@ -1,15 +1,14 @@
 // / Custom hook to fetch products from an API and manage products and error state //
 // Returns the fetched products and any error encountered //
 
-
-// Custom hook for fetching products
-
 import { useState, useEffect } from "react";
 
 const useProducts = () => {
   const [products, setProducts] = useState([]);
   const [error, setError] = useState(null);
 
+
+// Custom hook for fetching products
   useEffect(() => {
     const fetchProducts = async () => {
       try {
