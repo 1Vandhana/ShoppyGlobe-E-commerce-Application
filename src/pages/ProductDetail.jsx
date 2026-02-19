@@ -26,6 +26,7 @@ function ProductDetail() {
     <div className="detail">
       <h2>{product.title}</h2>
       <img src={product.thumbnail} loading="lazy" />
+      <h4>Product Details</h4>
       <p>{product.description}</p>
       <p>${product.price}</p>
     </div>
