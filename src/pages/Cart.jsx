@@ -1,8 +1,9 @@
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import CartItem from "../components/CartItem";
-
+// Implement Redux for more complex state management
 function Cart() {
+  // Create actions, reducers, and selectors to manage the state of cart items //
   const cartItems = useSelector(state => state.cart.items);
 
   const total = cartItems.reduce(

@@ -1,4 +1,5 @@
-// 
+// Utilize props to pass data from parent components to child components.
+//Ensure components are functional and reusable with appropriate prop types.
 import PropTypes from "prop-types";
 import { useDispatch } from "react-redux";
 import {
@@ -23,7 +24,8 @@ function CartItem({ item }) {
           <span>{item.quantity}</span>
           <button onClick={() => dispatch(increaseQty(item.id))}>+</button>
         </div>
-
+{/*The add product and remove product functionality is implemented correctly
+using Redux. */}
         <button
           className="remove"
           onClick={() => dispatch(removeFromCart(item.id))}

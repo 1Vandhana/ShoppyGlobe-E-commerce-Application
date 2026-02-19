@@ -25,7 +25,7 @@ function Header() {
         <span className="search-icon">
             <FiSearch />
         </span>
-      
+      {/* Implement a search feature to filter products */}
         <input type="text" placeholder="Search..." 
         onChange={(e) => dispatch(setSearch(e.target.value))}/>
       </div>

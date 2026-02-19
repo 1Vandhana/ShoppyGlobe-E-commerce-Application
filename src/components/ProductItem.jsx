@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import { useDispatch } from "react-redux";
 import { addToCart } from "../redux/cartSlice";
 import { Link } from "react-router-dom";
-
+ {/* Add a button in each ProductItem to add the product to the cart.*/}
 function ProductItem({ product }) {
   const dispatch = useDispatch();
 
@@ -21,7 +21,7 @@ function ProductItem({ product }) {
         <Link to={`/product/${product.id}`}>
           <button >View</button>
         </Link>
-
+{/*Add a button in each CartItem to remove the product from the cart*/}
         <button onClick={() => dispatch(addToCart(product))}>
           Add to Cart
         </button>
