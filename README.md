@@ -80,17 +80,12 @@ Typography: Clean and readable fonts for product titles and descriptions.
 Logo: ShoopyGlobe logo with multiple colors for “Shoopy” and “Globe”.
 
 ## App screenshot 
-Dashboard:
-/Users/vandhana/Desktop/Dashboard.png
 
-view cards:
-/Users/vandhana/Desktop/view.png
 
-checkout:
-/Users/vandhana/Desktop/checkout.png
-
-place order:
-/Users/vandhana/Desktop/order.png
+![alt text](<Screenshot 2026-02-19 at 6.20.19 PM.png>) 
+![alt text](<Screenshot 2026-02-19 at 6.20.28 PM.png>) 
+![alt text](<Screenshot 2026-02-19 at 6.20.32 PM.png>) 
+![alt text](<Screenshot 2026-02-19 at 6.20.36 PM.png>)
 
 
 ## GitHub Link:
