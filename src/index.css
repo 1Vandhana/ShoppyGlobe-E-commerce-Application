@@ -63,13 +63,13 @@ body {
   border: 1px solid #ddd;
   outline: none;
   font-size: 14px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(222, 86, 186, 0.1);
   transition: 0.3s;
 }
 
 .search-wrapper input:hover,
 .search-wrapper input:focus {
-  box-shadow: 0 1px 6px  #f15839;
+  box-shadow: 0 1px 6px  hsl(51, 69%, 60%);
   border-color: transparent;
 }
 
@@ -170,6 +170,9 @@ button:hover{
   transform:translateY(-3px);
   box-shadow:0 5px 10px rgba(0,0,0,0.2);
 }
+
+
+
 .detail {
   max-width:500px;
   height:auto;
