@@ -81,16 +81,16 @@ Logo: ShoopyGlobe logo with multiple colors for “Shoopy” and “Globe”.
 
 ## App screenshot 
 Dashboard:
-![alt text](<Screenshot 2026-02-19 at 5.52.52 PM.png>)
+/Users/vandhana/Desktop/Dashboard.png
 
 view cards:
-![alt text](<Screenshot 2026-02-19 at 6.05.15 PM.png>)
+/Users/vandhana/Desktop/view.png
 
 checkout:
-![alt text](<Screenshot 2026-02-19 at 5.59.50 PM.png>)
+/Users/vandhana/Desktop/checkout.png
 
 place order:
-![alt text](<Screenshot 2026-02-19 at 5.59.56 PM.png>)
+/Users/vandhana/Desktop/order.png
 
 
 ## GitHub Link:
