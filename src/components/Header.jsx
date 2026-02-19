@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { setSearch } from "../redux/searchSlice";
 import { FiSearch } from "react-icons/fi";
 
-
+// Header for the Shoppyglobe application //
 function Header() {
   const dispatch = useDispatch();
   const cartItems = useSelector(state => state.cart.items);
@@ -15,8 +15,11 @@ function Header() {
 
   return (
     <header className="header">
-      <h2> 🛍️ ShoppyGlobe</h2>
-
+      <h1 className="logo">
+        <span className="shoopy">🛍️Shoopy</span>
+        <span className="globe">Globe</span>
+      </h1>
+     {/* Navbar for Home and cart using Link tag */}
       <nav>
         <Link to="/">Home</Link>
         <Link to="/cart">Cart ({totalCount})</Link>

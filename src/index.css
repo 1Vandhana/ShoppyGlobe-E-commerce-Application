@@ -12,12 +12,28 @@ body {
   align-items: center;
   background: lch(36.38% 19.39 200.7);
   color: black;
+  
   padding: 15px 30px;
   flex-wrap: wrap;
 }
+/* Logo for the application */
+.logo {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.shoopy {
+  color: hsl(55, 77%, 54%);   
+}
+
+.globe {
+  color: #ef7ae8;   
+}
+
+
 /* for Home and carts */
 .header a {
-  color: hsl(51, 80%, 64%);
+  color: lab(89.42% -18.7 67.71);
   margin: 0 10px;
   text-decoration: none;
   font-weight:500;
