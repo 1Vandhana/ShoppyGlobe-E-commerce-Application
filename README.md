@@ -67,12 +67,13 @@ ShoppyGlobe is a modern and responsive grocery e-commerce web application built 
 
 ## Styling & UI Highlights
 
-Header: Gradient background with navigation links and search bar
-Cards: Glassmorphism-style product cards with hover animations
-Buttons: Gradient and hover effects for “Add to Cart”
-Responsive Design: Mobile-friendly grid and cart layout
-Typography: Clean and readable fonts for product titles and descriptions
-Logo: ShoopyGlobe logo with multiple colors for “Shoopy” and “Globe”
+Header: Gradient background with navigation links and search bar.
+
+Cards: Glassmorphism-style product cards with hover animations.
+Buttons: Gradient and hover effects for “Add to Cart”.
+Responsive Design: Mobile-friendly grid and cart layout.
+Typography: Clean and readable fonts for product titles and descriptions.
+Logo: ShoopyGlobe logo with multiple colors for “Shoopy” and “Globe”.
 
 ## App screenshot 
 Dashboard:
