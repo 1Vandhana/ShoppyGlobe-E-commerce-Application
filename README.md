@@ -52,17 +52,17 @@ ShoppyGlobe is a modern and responsive grocery e-commerce web application built 
 ## Technology & Tools Used:
 
 
-->React:Component-based architecture for UI development.
+->React: Component-based architecture for UI development.
 
-->Vite:Fast frontend build tool and development server.
+->Vite: Fast frontend build tool and development server.
 
-->Redux – State management for cart (optional).
+->Redux: State management for cart (optional).
 
-->CSS3 / Flexbox / Grid – Styling and responsive layouts.
+->CSS3 / Flexbox / Grid:  Styling and responsive layouts.
 
-->React Icons – Icon library for search, cart, and buttons.
+->React Icons:  Icon library for search, cart, and buttons.
 
-->Google Fonts – Modern typography (Poppins, Inter, Nunito).
+->Google Fonts:  Modern typography (Poppins, Inter, Nunito).
 
 
 ## Styling & UI Highlights
@@ -75,8 +75,17 @@ Typography: Clean and readable fonts for product titles and descriptions
 Logo: ShoopyGlobe logo with multiple colors for “Shoopy” and “Globe”
 
 ## App screenshot 
-
+Dashboard:
 ![alt text](<Screenshot 2026-02-19 at 5.52.52 PM.png>)
+
+checkout:
+![alt text](<Screenshot 2026-02-19 at 5.59.50 PM.png>)
+
+place order:
+![alt text](<Screenshot 2026-02-19 at 5.59.56 PM.png>)
+
+
+
 
 ## Author 
 
