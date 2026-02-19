@@ -14,3 +14,7 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 🛒 ShoppyGlobe-E-commerce-Application:
+
+ShoppyGlobe is a modern and responsive grocery e-commerce web application built using React and Vite. It allows users to browse grocery products, search for items, add products to a cart, and view product details in a clean, attractive interface.This project focuses on frontend development, responsive UI, and modern styling techniques like glassmorphism, hover animations, and grid/flex layouts. 
