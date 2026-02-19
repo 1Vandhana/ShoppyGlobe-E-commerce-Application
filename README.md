@@ -77,3 +77,7 @@ Logo: ShoopyGlobe logo with multiple colors for “Shoopy” and “Globe”
 ## App screenshot 
 
 ![alt text](<Screenshot 2026-02-19 at 5.52.52 PM.png>)
+
+## Author 
+
+Vandhana Dharavath
