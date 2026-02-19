@@ -44,3 +44,10 @@ ShoppyGlobe is a modern and responsive grocery e-commerce web application built 
   |-vite.config.js =>Vite configuration
   |-README.md => Used for Project Documentation
   
+## Technology & Tools Used:
+->React – Component-based architecture for UI development
+->Vite – Fast frontend build tool and development server
+->Redux – State management for cart (optional)
+->CSS3 / Flexbox / Grid – Styling and responsive layouts
+->React Icons – Icon library for search, cart, and buttons
+->Google Fonts – Modern typography (Poppins, Inter, Nunito)
