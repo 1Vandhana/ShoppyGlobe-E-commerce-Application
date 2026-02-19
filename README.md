@@ -30,24 +30,24 @@ ShoppyGlobe is a modern and responsive grocery e-commerce web application built 
 
  ## Project Structure :
   shooppyglobe/
-  |-public/ =>s
+  |-public/ 
   |
   |-src/
     |-components/   => Reusable components like Header,card,cartitem with .jsx.
-    |-pages/ =>pages with Home,cart,productdetail,notfound files
-    |-redux/ =>Redux store and slices with .js
-    |-hooks/ => To fetch products from an API and manage products and error state
-    |-App.jsx => main app component
-    |-main.jsx => Entry point 
-  |-index.css/ => for Styling the page using .css file
-  |-package.json => Project dependencies
-  |-vite.config.js =>Vite configuration
-  |-README.md => Used for Project Documentation
+    |-pages/ =>pages with Home,cart,productdetail,notfound files.
+    |-redux/ =>Redux store and slices with .js.
+    |-hooks/ => To fetch products from an API and manage products and error state.
+    |-App.jsx => main app component.
+    |-main.jsx => Entry point.
+  |-index.css/ => for Styling the page using .css file.
+  |-package.json => Project dependencies.
+  |-vite.config.js =>Vite configuration.
+  |-README.md => Used for Project Documentation.
   
 ## Technology & Tools Used:
-->React – Component-based architecture for UI development
-->Vite – Fast frontend build tool and development server
-->Redux – State management for cart (optional)
-->CSS3 / Flexbox / Grid – Styling and responsive layouts
-->React Icons – Icon library for search, cart, and buttons
-->Google Fonts – Modern typography (Poppins, Inter, Nunito)
+->React:Component-based architecture for UI development.
+->Vite:Fast frontend build tool and development server.
+->Redux – State management for cart (optional).
+->CSS3 / Flexbox / Grid – Styling and responsive layouts.
+->React Icons – Icon library for search, cart, and buttons.
+->Google Fonts – Modern typography (Poppins, Inter, Nunito).
